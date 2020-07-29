@@ -10,13 +10,18 @@ const Admin = ({ user }) => (
             <div className="col-md-4">
                 <ul className="nav flex-column">
                     <li className="nav-item">
-                       {/* // <Link href="/admin/category/create"> */}
-                            <a href="/admin/category/create" className="nav-link">Create category</a>
-                        {/* </Link> */}
+                        <a href="/admin/category/create" className="nav-link">
+                            Create category
+                        </a>
                     </li>
                     <li className="nav-item">
                         <Link href="/admin/category/read">
                             <a className="nav-link">All categories</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/admin/link/read">
+                            <a className="nav-link">All Links</a>
                         </Link>
                     </li>
                 </ul>
